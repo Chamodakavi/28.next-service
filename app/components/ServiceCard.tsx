@@ -3,13 +3,14 @@ import React from "react";
 
 interface ServiceCardProps {
   item: {
-    img: string; // URL for the image
-    title1: string; // Main title
-    p?: string; // Optional paragraph
-    title2?: string; // Optional subtitle
-    p1?: string; // Optional additional text
-    p2?: string; // Optional additional text
-    p3?: string; // Optional additional text
+    img: string; 
+    title1: string;
+    p?: string; 
+    title2?: string; 
+    p1?: string;
+    p2?: string; 
+    p3?: string;
+    p4?:string;
   };
 }
 
