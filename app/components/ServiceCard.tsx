@@ -1,8 +1,19 @@
 import { Box,  Text, VStack } from "@chakra-ui/react";
-
 import React from "react";
 
-function ServiceCard({item}) {
+interface ServiceCardProps {
+  item: {
+    img: string; // URL for the image
+    title1: string; // Main title
+    p?: string; // Optional paragraph
+    title2?: string; // Optional subtitle
+    p1?: string; // Optional additional text
+    p2?: string; // Optional additional text
+    p3?: string; // Optional additional text
+  };
+}
+
+const ServiceCard: React.FC<ServiceCardProps> =({item}) => {
   return (
     
       <Box pt={5}>
