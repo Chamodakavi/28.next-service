@@ -11,6 +11,7 @@ export const Data = [
         "p1": "Waxing",
         "p2": "Undercarriage Degreasing",
         "p3": "Lube Services",
+        "p4":'Interior/Exterior Detailing',
       },
       {
         "id": 2,
@@ -21,6 +22,7 @@ export const Data = [
         "p1": "Spare Parts Replacement",
         "p2": "Mechanical Repair",
         "p3": "Full Paints",
+        "p4":'Hybrid Services',
       },
       {
         "id": 3,
@@ -31,6 +33,7 @@ export const Data = [
         "p1": "Lube Services",
         "p2": "Windscreean Treatments",
         "p3": "Tyre Replacements",
+        "p4":'Wheel Alignment',
       },
 ]
 
