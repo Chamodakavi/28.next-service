@@ -3,7 +3,6 @@ import {
   Container,
   Grid,
   GridItem,
-  HStack,
   Image,
   ListItem,
   ListRoot,

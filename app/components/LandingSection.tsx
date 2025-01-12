@@ -10,7 +10,7 @@ function LandingSection() {
     backgroundSize="cover"
     backgroundRepeat="no-repeat"
     backgroundPosition="center"
-    position="relative"
+    // position="relative"
     width="100%"
     height="90vh"
   >

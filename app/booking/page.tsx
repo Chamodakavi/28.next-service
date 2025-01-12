@@ -4,7 +4,7 @@ import React from 'react'
 function ContactUs() {
   return (
     <Box>
-      contactus
+      booking
     </Box>
   )
 }
