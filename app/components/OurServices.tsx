@@ -1,7 +1,7 @@
-import { Container, Grid, GridItem, Span, Text } from "@chakra-ui/react";
+import { Box, Container, Grid, GridItem, Span, Text } from "@chakra-ui/react";
 import React from "react";
 import ServiceCard from "./ServiceCard";
-import {Data} from '../data/Data'
+import { Data } from "../data/Data";
 
 function OurServices() {
   return (
@@ -15,23 +15,17 @@ function OurServices() {
           supervision and trust.
         </Text>
 
-        <Grid
-          templateColumns={{
-            base: "repeat(1, 1fr)",
-            md: "repeat(3, 1fr)",
-            sm: "repeat(2, 1fr)",
-          }}
-        justifyItems="center"
-        gap={5}
-        >
-          {
-
-                Data.map((item)=>(
-                   <GridItem key={item.id}> <ServiceCard item = {item}/></GridItem>
-                ))
-
-          }
+        <Grid templateColumns="repeat(12, 1fr)" gap={4} >
+          {Data.map((item) => (
+            <GridItem
+              key={item.id}
+              colSpan={{ base: 12, sm: 6, md: 4 }}
+            >
+              <ServiceCard item={item}/>
+            </GridItem>
+          ))}
         </Grid>
+       
       </Container>
     </section>
   );

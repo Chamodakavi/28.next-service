@@ -37,4 +37,32 @@ export const Data = [
       },
 ]
 
+export const OurNetworkData = [
 
+  {
+    'id':'1',
+    'img':'https://automiraj.lk/wp-content/uploads/2022/09/premieer-1.jpg',
+    'desc':'Located in Colombo to offer your vehicle a VIP Service.',
+  },
+  {
+    'id':'2',
+    'img':'https://automiraj.lk/wp-content/uploads/2022/09/grand-1.jpg',
+    'desc':'From car wash to body shop & workshop, all under one roof.',
+  },
+  {
+    'id':'3',
+    'img':'https://automiraj.lk/wp-content/uploads/2022/09/ramdis-1.jpg',
+    'desc':'European/other Manufacturer Repairs & Maintenance.',
+  },
+  {
+    'id':'4',
+    'img':'https://automiraj.lk/wp-content/uploads/2023/02/automiraj-express_compressed.jpg',
+    'desc':'Quick detailing services with latest steam wash facilities.',
+  },
+  {
+    'id':'5',
+    'img':'https://automiraj.lk/wp-content/uploads/2023/02/automiraj-4x4_compressed.jpg',
+    'desc':'Extreme off-roading experience in Auto Miraj’s sports rigs.',
+  },
+
+]

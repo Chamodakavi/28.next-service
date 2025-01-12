@@ -17,7 +17,8 @@ interface ServiceCardProps {
 const ServiceCard: React.FC<ServiceCardProps> = ({ item }) => {
   return (
     <Box pt={5}>
-      <img src={item.img} alt="" style={{width:'100%'}}/>
+      <img src={item.img} alt=""/>
+
       <Text
         as={"h2"}
         fontWeight={"bold"}
