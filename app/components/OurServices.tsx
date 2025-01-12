@@ -1,4 +1,4 @@
-import { Box, Container, Grid, GridItem, Span, Text } from "@chakra-ui/react";
+import {  Container, Grid, GridItem, Span, Text } from "@chakra-ui/react";
 import React from "react";
 import ServiceCard from "./ServiceCard";
 import { Data } from "../data/Data";
