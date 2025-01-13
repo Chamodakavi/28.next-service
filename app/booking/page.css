@@ -1,0 +1,18 @@
+input[type="checkbox"] {
+  appearance: none; /* Remove default styling */
+  background-color: white; /* Set background to white */
+  border: 2px solid black; /* Add a border */
+  width: 16px; /* Set width */
+  height: 16px; /* Set height */
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: blue; /* Set background when checked */
+  border-color: blue; /* Optional: change border color when checked */
+}
+
+input[type="checkbox"]:focus {
+  outline: 2px solid lightblue; /* Optional: focus outline */
+}

@@ -70,7 +70,7 @@ function AboutSection() {
   
                 <ListRoot listStyle={"none"}>
                   {OurNetworkData.map((item) => (
-                    <ListItem my={5}>
+                    <ListItem my={5} key={item.id}>
                       <Grid templateColumns={"repeat(12,1fr)"} gap={5}>
                         <GridItem colSpan={{base:12,sm:6}}>
                           <Image width={"90%"} src={item.img} />

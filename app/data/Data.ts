@@ -66,3 +66,34 @@ export const OurNetworkData = [
   },
 
 ]
+
+export const Services1 = [
+  {
+    label: "Wash and Grooming",
+    value: "wash-and-grooming",
+  },
+  { label: "Lube Services", value: "lube-services" },
+  {
+    label: "Exterior & Interior Detailing",
+    value: "exterior-interior-detailing",
+  },
+  { label: "Engine Tune-ups", value: "engine-tune-ups" },
+  { label: "Hybrid Services", value: "hybrid-services" },
+]
+
+export const Services2 = [
+  { label: "Wheel Alignment", value: "wheel-alignment" },
+  { label: "Battery Services", value: "battery-services" },
+  {
+    label: "Inspection Reports",
+    value: "inspection-reports",
+  },
+  {
+    label: "Part Replacements",
+    value: "part-replacements",
+  },
+  {
+    label: "Nano Treatments",
+    value: "Nano Treatments",
+  },
+]
